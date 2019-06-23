@@ -1,0 +1,21 @@
+.bigname {
+    font-Size: 30px;
+    color: rgb(247, 247, 248);
+    float: left;
+    background-color: rgb(110, 135, 120);
+    padding: 20px;
+    margin- left: -25px;
+}
+
+.default-text {
+    padding: 20px;
+    font-size: 20px;
+    color: #777777
+}
+
+.about-me {
+    padding: 20px;
+    font-size: 20px;
+    color: #777777;
+    border-bottom: 10px solid #777777;
+}
