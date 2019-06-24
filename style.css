@@ -19,3 +19,14 @@
     color: #777777;
     border-bottom: 10px solid #777777;
 }
+.jumbotron {
+    background-color: white;
+    color: rgb(110, 135, 120);
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    left:0;
+    border-bottom: 10px solid #777777;
+    Margin-bottom: 20px;
+    text-align: center;
+}
