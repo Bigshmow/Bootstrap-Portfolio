@@ -8,7 +8,6 @@ body {
     float: left;
     background-color: rgb(110, 135, 120);
     padding: 25px;
-    position: relative; left: 0;
 }
 
 .default-text {
