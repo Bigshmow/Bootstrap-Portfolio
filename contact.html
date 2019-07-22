@@ -5,8 +5,8 @@
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
-        <!-- my css just in case -->
-        <link rel="stylesheet" href="/style.css">
+        <!-- my css -->
+        <link rel="stylesheet" href="../Bootstrap-Portfolio/assets/css/style.css">
 
     </head>
     
@@ -14,19 +14,19 @@
         <!-- Nav Bar -->
             <nav class="navbar navbar-default">
                     <div class="container-fluid">
-                        <div>
-                            <Header class="bigname">Devin Stewart</Header>
+                        <div class="col-md-3 col-sm-12">
+                            <Header class="bigname text-center">Devin Stewart</Header>
                         </div>
                         
                         <ul class="nav nav-pills">
-                            <li role="presentation" class="navbar-right default-text"><a href="contact.html">Contact</a></li>
-                            <li role="presentation" class="navbar-right default-text"><a href="portfolio.html">Portfolio</a></li>
                             <li role="presentation" class="navbar-right default-text"><a href="index.html">About</a></li>
+                            <li role="presentation" class="navbar-right default-text"><a href="portfolio.html">Portfolio</a></li>
+                            <li role="presentation" class="navbar-right default-text"><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                     </nav>
 
-            <div class="container" style="position: relative; top:50px; left:0;">
+            <div class="container">
                 <div class="row">
 
                     <div class="col-sm-2"></div>
@@ -41,25 +41,28 @@
 <!-- Contact Boxes -->
                 <div class="row">       
                         <div class="col-sm-2"></div>
-                        <div class="col-sm-8" style="background-color: white; padding:20px;">
-                        <br>
+                        <div class="col-sm-8">
+                        <div class="jumbotron">
+
+                            <br>
                             <div class="input-group">
                                 <span class="input-group-addon glyphicon glyphicon-user" aria-hidden="true" id="basic-addon1"></span>
                                 <input type="text" class="form-control" placeholder="First and Last Name" aria-describedby="basic-addon1">
-                              </div>
-                        <br>
-                        <div class="input-group">
+                            </div>
+                            <br>
+                            <div class="input-group">
                                 <span class="input-group-addon glyphicon glyphicon-envelope" aria-hidden="true" id="basic-addon1"></span>
                                 <input type="text" class="form-control" placeholder="email@example.com" aria-describedby="basic-addon1">
-                              </div>
-                        <br>
-                        <p>Leave a message below:</p>
-                        <textarea class="form-control" rows="7"></textarea>
-                        <br>
-                        <button type="submit" class="btn btn-default">Submit</button>
-
+                            </div>
+                            <br>
+                            <p>Leave a message below:</p>
+                            <textarea class="form-control" rows="7"></textarea>
+                            <br>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                            
+                            <div class="col-sm-2"></div>
                         </div>
-                        <div class="col-sm-2"></div>
+                    </div>
                     </div>
                     <div class="row">
 

@@ -1,11 +1,11 @@
 body {
-    background: url("../Bootstrap-Portfolio/images/interlaced.png")
+    background: url("../images/interlaced.png")
 }
 
 .bigname {
     font-Size: 30px;
     color: rgb(247, 247, 248);
-    float: left;
+    /* float: left; */
     background-color: rgb(110, 135, 120);
     padding: 25px;
 }
@@ -31,5 +31,4 @@ body {
     left:0;
     border-bottom: 10px solid #777777;
     Margin-bottom: 20px;
-    text-align: center;
 }
