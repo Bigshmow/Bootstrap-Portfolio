@@ -1,3 +1,5 @@
+/* elements */
+/* ------------------ */
 h1 {
     text-align: center;
 }
@@ -6,9 +8,18 @@ body {
     background: url("../images/interlaced.png")
 }
 
+/* classes */
+/* ------------------ */
+.about-me {
+    padding: 20px;
+    font-size: 20px;
+    color: #777777;
+    border-bottom: 10px solid #777777;
+}
+
 .bigname {
     font-Size: 30px;
-    color: rgb(247, 247, 248);
+    color: white;
     /* float: left; */
     background-color: rgb(110, 135, 120);
     padding: 25px;
@@ -20,19 +31,22 @@ body {
     color: #777777
 }
 
-.about-me {
-    padding: 20px;
-    font-size: 20px;
-    color: #777777;
-    border-bottom: 10px solid #777777;
+.footer {
+    background-color: rgb(110, 135, 120);
+        color: white;
+        text-align: center;
 }
+
 .jumbotron {
     background-color: white;
     color: rgb(110, 135, 120);
     padding: 20px;
-    position: relative;
+    /* position: relative;
     top: 50px;
     left:0;
+    Margin-bottom: 20px; */
     border-bottom: 10px solid #777777;
-    Margin-bottom: 20px;
 }
+
+/* id */
+/* ------------------ */
