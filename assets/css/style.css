@@ -1,52 +1,114 @@
 /* elements */
 /* ------------------ */
-h1 {
-    text-align: center;
+a {
+    color: #0D1321;
+}
+
+a:hover{
+    color: #0D1321;
+    text-decoration: none;
 }
 
 body {
-    background: url("../images/interlaced.png")
+    background-color: rgb(189, 235, 230);
+    color: #0D1321;
+}
+
+h5 {
+    margin-left: 10px;
+    margin-top: -20px;
 }
 
 /* classes */
 /* ------------------ */
+.nameHead {
+    color: #0D1321;
+}
+
+
+.gitHub {
+    color: #0D1321;
+}
+
+.seekingPos {
+    color: #6D454C;
+}
+
+.infoBox {
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 25px;
+    border: 5px white solid;
+    margin-top: 60px;
+}
 .about-me {
     padding: 20px;
     font-size: 20px;
-    color: #777777;
+    color: #0D1321;
     border-bottom: 10px solid #777777;
 }
 
 .bigname {
     font-Size: 30px;
-    color: white;
-    /* float: left; */
-    background-color: rgb(110, 135, 120);
+    color: #6D454C;
+    background-color: #FFEDDF;
     padding: 25px;
 }
 
 .default-text {
     padding: 20px;
     font-size: 20px;
-    color: #777777
+    color: #0D1321;
 }
 
 .footer {
-    background-color: rgb(110, 135, 120);
-        color: white;
-        text-align: center;
+    background-color: #AFE0CE;
+    color: #0D1321;
+    text-align: center;
 }
 
 .jumbotron {
     background-color: white;
     color: rgb(110, 135, 120);
     padding: 20px;
-    /* position: relative;
-    top: 50px;
-    left:0;
-    Margin-bottom: 20px; */
     border-bottom: 10px solid #777777;
 }
 
 /* id */
 /* ------------------ */
+
+#aboutBox {
+background-color:#C5d86d;
+transition: border-radius 2s;
+}
+#aboutBox:hover {
+border-radius: 25px;
+transition: border-radius 1s;
+}
+
+#portfolioBox {
+background-color:#afe0ce;
+transition: border-radius 2s;
+}
+#portfolioBox:hover {
+border-radius: 25px;
+transition: border-radius 1s;
+}
+
+#resumeBox {
+background-color:#6d454c;
+transition: border-radius 2s;
+}
+#resumeBox:hover {
+border-radius: 25px;
+transition: border-radius 1s;
+}
+
+#funBox {
+background-color:#ffeddf;
+transition: border-radius 2s;
+}
+#funBox:hover {
+border-radius: 25px;
+transition: border-radius 1s;
+}
