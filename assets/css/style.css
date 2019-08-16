@@ -4,7 +4,7 @@ a {
     color: #0D1321;
 }
 
-a:hover{
+a:hover {
     color: #0D1321;
     text-decoration: none;
 }
@@ -38,9 +38,10 @@ h5 {
     text-align: center;
     padding-top: 400px;
     padding-bottom: 25px;
-    border: 5px white solid;
     margin-top: 60px;
+    border: 5px white solid;
 }
+
 .about-me {
     padding: 20px;
     font-size: 20px;
@@ -78,37 +79,41 @@ h5 {
 /* ------------------ */
 
 #aboutBox {
-background-color:#C5d86d;
-transition: border-radius 2s;
+    background-color: #C5d86d;
+    transition: border-radius 2s;
 }
+
 #aboutBox:hover {
-border-radius: 25px;
-transition: border-radius 1s;
+    border-radius: 25px;
+    transition: border-radius 1s;
 }
 
 #portfolioBox {
-background-color:#afe0ce;
-transition: border-radius 2s;
+    background-color: #afe0ce;
+    transition: border-radius 2s;
 }
+
 #portfolioBox:hover {
-border-radius: 25px;
-transition: border-radius 1s;
+    border-radius: 25px;
+    transition: border-radius 1s;
 }
 
 #resumeBox {
-background-color:#6d454c;
-transition: border-radius 2s;
+    background-color: #6d454c;
+    transition: border-radius 2s;
 }
+
 #resumeBox:hover {
-border-radius: 25px;
-transition: border-radius 1s;
+    border-radius: 25px;
+    transition: border-radius 1s;
 }
 
 #funBox {
-background-color:#ffeddf;
-transition: border-radius 2s;
+    background-color: #ffeddf;
+    transition: border-radius 2s;
 }
+
 #funBox:hover {
-border-radius: 25px;
-transition: border-radius 1s;
+    border-radius: 25px;
+    transition: border-radius 1s;
 }
