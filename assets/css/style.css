@@ -25,7 +25,6 @@ h5 {
     color: #0D1321;
 }
 
-
 .gitHub {
     color: #0D1321;
 }
@@ -42,37 +41,36 @@ h5 {
     border: 5px white solid;
 }
 
-.about-me {
-    padding: 20px;
-    font-size: 20px;
+.dialogueBox {
+    background-color: white;
     color: #0D1321;
-    border-bottom: 10px solid #777777;
+    padding: 20px;
+    height: auto;
+    margin-top: 60px;
 }
+
+.about {
+    border-top: 10px solid #C5d86d;
+}
+
+.contact {
+    border-top: 10px solid #ffeddf;
+}
+
+.portfolio {
+    border-top: 10px solid #afe0ce;
+}
+
+.fun {
+    border-top: 10px solid #ab3e50;
+}
+
 
 .bigname {
     font-Size: 30px;
     color: #6D454C;
     background-color: #FFEDDF;
     padding: 25px;
-}
-
-.default-text {
-    padding: 20px;
-    font-size: 20px;
-    color: #0D1321;
-}
-
-.footer {
-    background-color: #AFE0CE;
-    color: #0D1321;
-    text-align: center;
-}
-
-.jumbotron {
-    background-color: white;
-    color: rgb(110, 135, 120);
-    padding: 20px;
-    border-bottom: 10px solid #777777;
 }
 
 /* id */
@@ -98,22 +96,22 @@ h5 {
     transition: border-radius 1s;
 }
 
-#resumeBox {
-    background-color: #6d454c;
-    transition: border-radius 2s;
-}
-
-#resumeBox:hover {
-    border-radius: 25px;
-    transition: border-radius 1s;
-}
-
 #funBox {
-    background-color: #ffeddf;
+    background-color: #ab3e50;
     transition: border-radius 2s;
 }
 
 #funBox:hover {
+    border-radius: 25px;
+    transition: border-radius 1s;
+}
+
+#contactBox {
+    background-color: #ffeddf;
+    transition: border-radius 2s;
+}
+
+#contactBox:hover {
     border-radius: 25px;
     transition: border-radius 1s;
 }
