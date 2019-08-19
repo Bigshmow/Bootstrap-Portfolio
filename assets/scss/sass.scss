@@ -1,0 +1,19 @@
+.m-scene {
+    .scene_element {
+        animation-duration: 0.25s;
+        transition-timing-function: ease-in;
+        animation-fill-mode: both;
+    }
+
+    .scene_element--fadein {
+        animation-name: FadeIn;
+    }
+    
+    .scene_element--fadeinleft {
+        animation-name: FadeInLeft;
+    }
+
+    .scene_element--fadeinright {
+        animation-name: FadeInRight;
+    }
+}
