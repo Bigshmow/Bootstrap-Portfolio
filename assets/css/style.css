@@ -50,20 +50,38 @@ h5 {
 }
 
 .about {
+    height: 100%;
+    max-height: 550px;
     border-top: 10px solid #C5d86d;
+    overflow: auto;
 }
 
 .contact {
+    height: 100%;
+    max-height: 550px;
     border-top: 10px solid #ffeddf;
+    overflow: auto;
 }
 
 .portfolio {
+    height: 100%;
+    max-height: 550px;
     border-top: 10px solid #afe0ce;
+    overflow: auto;
 }
 
 .fun {
+    height: 100%;
+    max-height: 550px;
     border-top: 10px solid #dc2e4b;
+    overflow: auto;
 }
+
+.cardImg {
+    width: auto;
+    height: 400px;
+}
+
 
 
 .bigname {
@@ -77,6 +95,7 @@ h5 {
 /* ------------------ */
 
 #aboutBox {
+    max-height: 550px;
     background-color: #C5d86d;
     transition: border-radius 2s;
 }
@@ -87,6 +106,7 @@ h5 {
 }
 
 #portfolioBox {
+    max-height: 550px;
     background-color: #afe0ce;
     transition: border-radius 2s;
 }
@@ -97,6 +117,7 @@ h5 {
 }
 
 #funBox {
+    max-height: 550px;
     background-color: #dc2e4b;
     transition: border-radius 2s;
 }
@@ -107,6 +128,7 @@ h5 {
 }
 
 #contactBox {
+    max-height: 550px;
     background-color: #ffeddf;
     transition: border-radius 2s;
 }
