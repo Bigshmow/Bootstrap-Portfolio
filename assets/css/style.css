@@ -62,7 +62,7 @@ h5 {
 }
 
 .fun {
-    border-top: 10px solid #ab3e50;
+    border-top: 10px solid #dc2e4b;
 }
 
 
@@ -97,7 +97,7 @@ h5 {
 }
 
 #funBox {
-    background-color: #ab3e50;
+    background-color: #dc2e4b;
     transition: border-radius 2s;
 }
 
