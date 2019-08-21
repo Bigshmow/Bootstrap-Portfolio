@@ -141,11 +141,14 @@ h5 {
 /* Media Queries */
 /* ---------------- */
 
-@media screen and (max-width: 2000px) {
-    
-  }
+@media screen and (max-width: 2000px) {}
 
 @media screen and (max-width: 640px) {
+
+    .hideMe {
+        color: rgb(189, 235, 230);
+    }
+
     .infoBox {
         text-align: center;
         padding-top: 0;
@@ -158,36 +161,40 @@ h5 {
         width: 100%;
         margin-top: 25px;
     }
+
     #portfolioBox {
         height: 50px;
         width: 100%;
         margin-top: 25px;
     }
+
     #contactBox {
         height: 50px;
         width: 100%;
         margin-top: 25px;
     }
+
     #funBox {
         height: 50px;
         width: 100%;
         margin-top: 25px;
     }
-    #hideMe {
-        color: rgb(189, 235, 230);
-    }
+
+    /* Keyframes */
+    /* ---------------- */
 
     @keyframes FadeInBottom {
         0% {
             opacity: 0;
             transform: translate3d(0, 100%, 0);
         }
+
         100% {
             opacity: 1;
             transform: none;
         }
-    
-  }
+
+    }
 }
 
 /* Keyframes */
@@ -197,6 +204,7 @@ h5 {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -207,6 +215,7 @@ h5 {
         opacity: 0;
         transform: translate3d(100%, 0, 0);
     }
+
     100% {
         opacity: 1;
         transform: none;
@@ -218,6 +227,7 @@ h5 {
         opacity: 0;
         transform: translate3d(-100%, 0, 0);
     }
+
     100% {
         opacity: 1;
         transform: none;
