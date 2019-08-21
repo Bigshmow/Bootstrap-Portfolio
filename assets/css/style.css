@@ -23,10 +23,12 @@ h5 {
 /* ------------------ */
 .nameHead {
     color: #0D1321;
+    text-align: left;
 }
 
 .gitHub {
     color: #0D1321;
+    text-align: right;
 }
 
 .seekingPos {
@@ -142,7 +144,12 @@ h5 {
 @media screen and (max-width: 2000px) {}
 
 @media screen and (max-width: 640px) {
-
+    .nameHead {
+        text-align: center;
+    }
+    .gitHub {
+        text-align: center;
+    }
     .hideMe {
         color: rgb(189, 235, 230);
     }
