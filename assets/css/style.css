@@ -133,6 +133,13 @@ h5 {
     transition: border-radius 2s;
 }
 
+#contactBox2 {
+    max-height: 550px;
+    background-color: #ffeddf;
+    transition: border-radius 2s;
+    display: none;
+}
+
 #contactBox:hover {
     border-radius: 25px;
     transition: border-radius 1s;
@@ -141,7 +148,13 @@ h5 {
 /* Media Queries */
 /* ---------------- */
 
-@media screen and (max-width: 2000px) {}
+@media screen and (max-width: 2000px) {
+
+    .displayNone {
+        display: none;
+    }
+
+}
 
 @media screen and (max-width: 640px) {
     .nameHead {
@@ -151,7 +164,11 @@ h5 {
         text-align: center;
     }
     .hideMe {
-        color: rgb(189, 235, 230);
+        display: none;
+        /* color: rgb(189, 235, 230); */
+    }
+    .unHide {
+        display: 100%;
     }
 
     .infoBox {
@@ -177,6 +194,13 @@ h5 {
         height: 50px;
         width: 100%;
         margin-top: 25px;
+    }
+
+    #contactBox2 {
+        height: 50px;
+        width: 100%;
+        margin-top: 25px;
+        display: inherit;
     }
 
     #funBox {
