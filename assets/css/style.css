@@ -21,13 +21,31 @@ h5 {
 
 /* classes */
 /* ------------------ */
+.fa-linkedin {
+    background: #0D1321;
+    color: white;
+  }
+
+.fa-linkedin:hover {
+    background: red;
+    color: white;
+  }
+
 .nameHead {
     color: #0D1321;
     text-align: left;
 }
 
-.gitHub {
+.fa-github {
     color: #0D1321;
+}
+
+.fa-github:hover {
+    background: red;
+    color: black;
+  }
+
+  .socialMedia {
     text-align: right;
 }
 
@@ -160,7 +178,7 @@ h5 {
     .nameHead {
         text-align: center;
     }
-    .gitHub {
+    .socialMedia {
         text-align: center;
     }
     .hideMe {
