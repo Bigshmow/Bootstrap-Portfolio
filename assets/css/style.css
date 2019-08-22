@@ -45,7 +45,7 @@ h5 {
     color: black;
   }
 
-  .socialMedia {
+.socialMedia {
     text-align: right;
 }
 
@@ -134,13 +134,13 @@ h5 {
     transition: border-radius 1s;
 }
 
-#funBox {
+#resumeBox {
     max-height: 550px;
     background-color: #dc2e4b;
     transition: border-radius 2s;
 }
 
-#funBox:hover {
+#resumeBox:hover {
     border-radius: 25px;
     transition: border-radius 1s;
 }
