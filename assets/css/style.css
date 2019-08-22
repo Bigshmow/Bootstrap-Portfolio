@@ -90,7 +90,7 @@ h5 {
     overflow: auto;
 }
 
-.fun {
+.resume {
     height: 100%;
     max-height: 550px;
     border-top: 10px solid #dc2e4b;
@@ -163,6 +163,11 @@ h5 {
     transition: border-radius 1s;
 }
 
+#contactBox2:hover {
+    border-radius: 25px;
+    transition: border-radius 1s;
+}
+
 /* Media Queries */
 /* ---------------- */
 
@@ -221,7 +226,7 @@ h5 {
         display: inherit;
     }
 
-    #funBox {
+    #resumeBox {
         height: 50px;
         width: 100%;
         margin-top: 25px;
