@@ -92,6 +92,15 @@ h5 {
     overflow: auto;
 }
 
+.submit {
+    border: 1px solid #0D1321;
+    background-color: #ffeddf;
+}
+
+.submit:hover {
+    transform: scale(1.1 , 1.1);
+}
+
 .portfolio {
     height: 100%;
     max-height: 550px;
