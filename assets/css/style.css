@@ -43,7 +43,15 @@ h5 {
 .fa-github:hover {
     background: red;
     color: black;
-  }
+}
+
+.fa-envelope {
+    transform: scale(1.5 , 1.5);
+}
+
+.fa-user {
+    transform: scale(1.5 , 1.5);
+}
 
 .socialMedia {
     text-align: right;
@@ -140,6 +148,18 @@ h5 {
     transition: border-radius 2s;
 }
 
+#resumeBox2 {
+    max-height: 550px;
+    background-color: #dc2e4b;
+    transition: border-radius 2s;
+    display: none;
+}
+
+#resumeBox2:hover {
+    border-radius: 25px;
+    transition: border-radius 1s;
+}
+
 #resumeBox:hover {
     border-radius: 25px;
     transition: border-radius 1s;
@@ -188,10 +208,6 @@ h5 {
     }
     .hideMe {
         display: none;
-        /* color: rgb(189, 235, 230); */
-    }
-    .unHide {
-        display: 100%;
     }
 
     .infoBox {
@@ -227,10 +243,18 @@ h5 {
     }
 
     #resumeBox {
-        height: 50px;
-        width: 100%;
-        margin-top: 25px;
+            height: 50px;
+            width: 100%;
+            margin-top: 25px;
     }
+
+    #resumeBox2 {
+        max-height: 50px;
+        background-color: #dc2e4b;
+        margin-top: 25px;
+        display: inherit;
+    }
+
 
     /* Keyframes */
     /* ---------------- */
