@@ -207,9 +207,20 @@ h5 {
         display: none;
     }
 
+    .card-img-top {
+        width: 264px;
+        height: 250px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
+    .card-img-top {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
     .nameHead {
         text-align: center;
     }
