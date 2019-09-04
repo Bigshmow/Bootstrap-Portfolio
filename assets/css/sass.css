@@ -1,1 +1,21 @@
-.m-scene .scene_element{animation-duration:0.25s;transition-timing-function:ease-in;animation-fill-mode:both}.m-scene .scene_element--fadein{animation-name:FadeIn}.m-scene .scene_element--fadeinleft{animation-name:FadeInLeft}.m-scene .scene_element--fadeinright{animation-name:FadeInRight}.m-scene .scene_element--fadeinbottom{animation-name:FadeInBottom}
+.m-scene .scene_element {
+    animation-duration: 0.25s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both
+}
+
+.m-scene .scene_element--fadein {
+    animation-name: FadeIn
+}
+
+.m-scene .scene_element--fadeinleft {
+    animation-name: FadeInLeft
+}
+
+.m-scene .scene_element--fadeinright {
+    animation-name: FadeInRight
+}
+
+.m-scene .scene_element--fadeinbottom {
+    animation-name: FadeInBottom
+}

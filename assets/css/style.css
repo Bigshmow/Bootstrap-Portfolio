@@ -24,12 +24,12 @@ h5 {
 .fa-linkedin {
     background: #0D1321;
     color: white;
-  }
+}
 
 .fa-linkedin:hover {
     background: red;
     color: white;
-  }
+}
 
 .nameHead {
     color: #0D1321;
@@ -46,11 +46,11 @@ h5 {
 }
 
 .fa-envelope {
-    transform: scale(1.5 , 1.5);
+    transform: scale(1.5, 1.5);
 }
 
 .fa-user {
-    transform: scale(1.5 , 1.5);
+    transform: scale(1.5, 1.5);
 }
 
 .socialMedia {
@@ -98,7 +98,7 @@ h5 {
 }
 
 .submit:hover {
-    transform: scale(1.1 , 1.1);
+    transform: scale(1.1, 1.1);
 }
 
 .portfolio {
@@ -218,15 +218,19 @@ h5 {
     .card-img-top {
         width: 100%;
     }
+
     .card {
         width: 100%;
     }
+
     .nameHead {
         text-align: center;
     }
+
     .socialMedia {
         text-align: center;
     }
+
     .hideMe {
         display: none;
     }
@@ -264,9 +268,9 @@ h5 {
     }
 
     #resumeBox {
-            height: 50px;
-            width: 100%;
-            margin-top: 25px;
+        height: 50px;
+        width: 100%;
+        margin-top: 25px;
     }
 
     #resumeBox2 {
