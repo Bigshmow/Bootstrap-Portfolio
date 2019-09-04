@@ -2,12 +2,12 @@ $(document).ready(function(){
 // alert("Linked Up!");
 var portArr = [
     {name:"RPS" , image: "../Bootstrap-Portfolio/assets/images/RPS_Resized.jpg" , title: "Rock Paper Scissors" , link: "https://bigshmow.github.io/RockPaperScissors"},
-    {name:"Psychic" , image: "../Bootstrap-Portfolio/assets/images/Psychic_Resize.JPG" , title: "Psychic Game" , link: "https://bigshmow.github.io/Psychic-Game"},
-    {name:"WordGuess" , image: "../Bootstrap-Portfolio/assets/images/WordGuess_Resize.JPG" , title: "Word Guess Game", link: "https://bigshmow.github.io/WordGuessGame" },
-    {name:"Crystal" , image: "../Bootstrap-Portfolio/assets/images/Crystal_Resize.JPG" , title: "Crystal Collector Game", link: "https://bigshmow.github.io/unit-4-game/"},
-    {name:"Trivia",image: "../Bootstrap-Portfolio/assets/images/Trivia_Resize.JPG" , title: "Trivia Game", link: "https://bigshmow.github.io/TriviaGame"},
-    {name: "GifTastic",image: "../Bootstrap-Portfolio/assets/images/GifTastic_200x200.JPG",title: "GifTastic",link: "https://bigshmow.github.io/GifTastic"},
-    {name:"TrainGame",image: "../Bootstrap-Portfolio/assets/images/Train_Resize.JPG",title:"Train Scheduler",link: "https://bigshmow.github.io/Train_Scheduler"}
+    {name:"Psychic" , image: "../Bootstrap-Portfolio/assets/images/Psychic_Resize.jpg" , title: "Psychic Game" , link: "https://bigshmow.github.io/Psychic-Game"},
+    {name:"WordGuess" , image: "../Bootstrap-Portfolio/assets/images/WordGuess_Resize.jpg" , title: "Word Guess Game", link: "https://bigshmow.github.io/WordGuessGame" },
+    {name:"Crystal" , image: "../Bootstrap-Portfolio/assets/images/Crystal_Resize.jpg" , title: "Crystal Collector Game", link: "https://bigshmow.github.io/unit-4-game/"},
+    {name:"Trivia",image: "../Bootstrap-Portfolio/assets/images/Trivia_Resize.jpg" , title: "Trivia Game", link: "https://bigshmow.github.io/TriviaGame"},
+    {name: "GifTastic",image: "../Bootstrap-Portfolio/assets/images/GifTastic_200x200.jpg",title: "GifTastic",link: "https://bigshmow.github.io/GifTastic"},
+    {name:"TrainGame",image: "../Bootstrap-Portfolio/assets/images/Train_Resize.jpg",title:"Train Scheduler",link: "https://bigshmow.github.io/Train_Scheduler"}
 ]
 
 for (let i = 0; i < portArr.length; i++) {   
