@@ -63,7 +63,7 @@ $(document).ready(function () {
         var newLink = "<a href=" + portArr[i].link + ">";
         var newImg = $(newLink + "<img src=" + portArr[i].image + " class='card-img-top'>");
         var newTitle = "<div class='card-body'>" + "<h5 class='text-center'>" + portArr[i].title + "</h5>" + "</div>";
-        var newGit = "<a href=" + portArr[i].git +"<h5 class='text-center'> GitLink</h5>";
+        var newGit = "<a href=" + portArr[i].git +"<h5 style='font-size:35px'class='text-center fa fa-github'></h5>";
         var newCard = $(newDiv).attr("class", "card").append(newImg).append(newTitle).append(newGit);
         $("#portDis").prepend(newCard);
     }

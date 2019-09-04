@@ -31,6 +31,11 @@ h5 {
     color: white;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(75%);
+}
+
 .nameHead {
     color: #0D1321;
     text-align: left;
