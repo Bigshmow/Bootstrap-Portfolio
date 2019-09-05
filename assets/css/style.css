@@ -24,6 +24,7 @@ h5 {
 .fa-linkedin {
     background: #0D1321;
     color: white;
+    font-size: 35px;
 }
 
 .fa-linkedin:hover {
@@ -43,6 +44,7 @@ h5 {
 
 .fa-github {
     color: #0D1321;
+    font-size: 35px;
 }
 
 .fa-github:hover {
@@ -220,6 +222,9 @@ h5 {
 }
 
 @media screen and (max-width: 640px) {
+    .displayNone {
+        display: block;
+    }
     .card-img-top {
         width: 100%;
     }
