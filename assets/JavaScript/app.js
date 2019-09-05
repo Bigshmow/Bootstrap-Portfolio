@@ -55,6 +55,13 @@ $(document).ready(function () {
             title: "Cart to Kitchen",
             link: "https://zuzanav.github.io/cart-to-kitchen",
             git: "https://github.com/Zuzanav/cart-to-kitchen "
+        },
+        {
+            name: "LIRI",
+            image: "../Bootstrap-Portfolio/assets/images/LIRI_Bot_Resize.jpg",
+            title: "LIRI Bot",
+            link: "https://github.com/Bigshmow/liri-node-app",
+            git: "https://github.com/Bigshmow/liri-node-app "
         }
     ]
 

@@ -107,7 +107,7 @@ h5 {
 }
 
 .portfolio {
-    height: 100%;
+    height: auto;
     max-height: 550px;
     border-top: 10px solid #afe0ce;
     overflow: auto;
