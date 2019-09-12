@@ -68,7 +68,7 @@ $(document).ready(function () {
             image: "../Bootstrap-Portfolio/assets/images/Bamazon_Resize.jpg",
             title: "Bamazon App",
             link: "https://github.com/Bigshmow/Bamazon",
-            git: "https://github.com/Bigshmow/Bamazon"
+            git: "https://github.com/Bigshmow/Bamazon "
         }
     ]
 
