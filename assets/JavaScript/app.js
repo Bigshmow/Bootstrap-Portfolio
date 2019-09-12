@@ -62,6 +62,13 @@ $(document).ready(function () {
             title: "LIRI Bot",
             link: "https://github.com/Bigshmow/liri-node-app",
             git: "https://github.com/Bigshmow/liri-node-app "
+        },
+        {
+            name: "Bamazon",
+            image: "../Bootstrap-Portfolio/assets/images/Bamazon_Resize.jpg",
+            title: "Bamazon App",
+            link: "https://github.com/Bigshmow/Bamazon",
+            git: "https://github.com/Bigshmow/Bamazon"
         }
     ]
 
