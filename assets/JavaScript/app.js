@@ -74,7 +74,7 @@ $(document).ready(function () {
             name: "FriendFinder",
             image: "../Bootstrap-Portfolio/assets/images/FriendFinder_Resize.jpg",
             title: "FriendFinder",
-            link: "https://agile-everglades-82324.herokuapp.com/",
+            link: "https://agile-everglades-82324.herokuapp.com",
             git: "https://github.com/Bigshmow/FriendFinder "
         }
     ]
