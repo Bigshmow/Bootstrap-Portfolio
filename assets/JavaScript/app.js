@@ -69,6 +69,13 @@ $(document).ready(function () {
             title: "Bamazon App",
             link: "https://github.com/Bigshmow/Bamazon",
             git: "https://github.com/Bigshmow/Bamazon "
+        },
+        {
+            name: "FriendFinder",
+            image: "../Bootstrap-Portfolio/assets/images/FriendFinder_Resize.jpg",
+            title: "FriendFinder",
+            link: "https://agile-everglades-82324.herokuapp.com/",
+            git: "https://github.com/Bigshmow/FriendFinder "
         }
     ]
 
