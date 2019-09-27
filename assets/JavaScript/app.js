@@ -76,6 +76,13 @@ $(document).ready(function () {
             title: "FriendFinder",
             link: "https://agile-everglades-82324.herokuapp.com",
             git: "https://github.com/Bigshmow/FriendFinder "
+        },
+        {
+            name: "EatDaBurger",
+            image: "../Bootstrap-Portfolio/assets/images/Burger_Resize.jpg",
+            title: "EatDaBurger",
+            link: "https://eatdaburger-bigshmow.herokuapp.com",
+            git: "https://github.com/Bigshmow/burger "
         }
     ]
 
