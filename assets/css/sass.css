@@ -1,5 +1,5 @@
 .m-scene .scene_element {
-    animation-duration: 0.25s;
+    animation-duration: 0.55s;
     transition-timing-function: ease-in;
     animation-fill-mode: both
 }

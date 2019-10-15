@@ -219,6 +219,19 @@ h5 {
         height: 250px;
     }
 
+    @keyframes FadeInBottom {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+
+        100% {
+            opacity: 1;
+            transform: none;
+        }
+
+    }
+
 }
 
 @media screen and (max-width: 640px) {
