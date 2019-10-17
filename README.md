@@ -1,4 +1,3 @@
-# Bootstrap-Portfolio
-The Bootstrap Portfolio
+# Portfolio-Page
 
 https://bigshmow.github.io/Bootstrap-Portfolio/index.html
