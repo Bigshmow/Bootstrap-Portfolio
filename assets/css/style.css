@@ -19,8 +19,49 @@ h5 {
     margin-top: -20px;
 }
 
+/* end elements */
+
 /* classes */
 /* ------------------ */
+.about {
+    height: 100%;
+    max-height: 550px;
+    border-top: 10px solid #C5d86d;
+    overflow: auto;
+}
+
+.bigname {
+    font-Size: 30px;
+    color: #6D454C;
+    background-color: #FFEDDF;
+    padding: 25px;
+}
+
+.cardImg {
+    width: auto;
+    height: 400px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(75%);
+}
+
+.contact {
+    height: 100%;
+    max-height: 550px;
+    border-top: 10px solid #ffeddf;
+    overflow: auto;
+}
+
+.dialogueBox {
+    background-color: white;
+    color: #0D1321;
+    padding: 20px;
+    height: auto;
+    margin-top: 60px;
+}
+
 .fa-linkedin {
     background: #0D1321;
     color: white;
@@ -30,16 +71,6 @@ h5 {
 .fa-linkedin:hover {
     background: red;
     color: white;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    filter: invert(75%);
-}
-
-.nameHead {
-    color: #0D1321;
-    text-align: left;
 }
 
 .fa-github {
@@ -60,15 +91,6 @@ h5 {
     transform: scale(1.5, 1.5);
 }
 
-.socialMedia {
-    text-align: right;
-}
-
-.seekingPos {
-    color: #6D454C;
-    margin-top: 5px;
-}
-
 .infoBox {
     text-align: center;
     padding-top: 400px;
@@ -77,35 +99,9 @@ h5 {
     border: 5px white solid;
 }
 
-.dialogueBox {
-    background-color: white;
+.nameHead {
     color: #0D1321;
-    padding: 20px;
-    height: auto;
-    margin-top: 60px;
-}
-
-.about {
-    height: 100%;
-    max-height: 550px;
-    border-top: 10px solid #C5d86d;
-    overflow: auto;
-}
-
-.contact {
-    height: 100%;
-    max-height: 550px;
-    border-top: 10px solid #ffeddf;
-    overflow: auto;
-}
-
-.submit {
-    border: 1px solid #0D1321;
-    background-color: #ffeddf;
-}
-
-.submit:hover {
-    transform: scale(1.1, 1.1);
+    text-align: left;
 }
 
 .portfolio {
@@ -122,21 +118,28 @@ h5 {
     overflow: auto;
 }
 
-.cardImg {
-    width: auto;
-    height: 400px;
-}
-
-.bigname {
-    font-Size: 30px;
+.seekingPos {
     color: #6D454C;
-    background-color: #FFEDDF;
-    padding: 25px;
+    margin-top: 5px;
 }
 
-/* id */
-/* ------------------ */
+.socialMedia {
+    text-align: right;
+}
 
+.submit {
+    border: 1px solid #0D1321;
+    background-color: #ffeddf;
+}
+
+.submit:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/* end classes */
+
+/* ids */
+/* ------------------ */
 #aboutBox {
     max-height: 550px;
     background-color: #C5d86d;
@@ -144,6 +147,29 @@ h5 {
 }
 
 #aboutBox:hover {
+    border-radius: 25px;
+    transition: border-radius 1s;
+}
+
+#contactBox {
+    max-height: 550px;
+    background-color: #ffeddf;
+    transition: border-radius 2s;
+}
+
+#contactBox:hover {
+    border-radius: 25px;
+    transition: border-radius 1s;
+}
+
+#contactBox2 {
+    max-height: 550px;
+    background-color: #ffeddf;
+    transition: border-radius 2s;
+    display: none;
+}
+
+#contactBox2:hover {
     border-radius: 25px;
     transition: border-radius 1s;
 }
@@ -165,6 +191,11 @@ h5 {
     transition: border-radius 2s;
 }
 
+#resumeBox:hover {
+    border-radius: 25px;
+    transition: border-radius 1s;
+}
+
 #resumeBox2 {
     max-height: 550px;
     background-color: #dc2e4b;
@@ -177,37 +208,11 @@ h5 {
     transition: border-radius 1s;
 }
 
-#resumeBox:hover {
-    border-radius: 25px;
-    transition: border-radius 1s;
-}
-
-#contactBox {
-    max-height: 550px;
-    background-color: #ffeddf;
-    transition: border-radius 2s;
-}
-
-#contactBox2 {
-    max-height: 550px;
-    background-color: #ffeddf;
-    transition: border-radius 2s;
-    display: none;
-}
-
-#contactBox:hover {
-    border-radius: 25px;
-    transition: border-radius 1s;
-}
-
-#contactBox2:hover {
-    border-radius: 25px;
-    transition: border-radius 1s;
-}
+/* end ids */
 
 /* Media Queries */
 /* ---------------- */
-
+/* large */
 @media screen and (max-width: 2000px) {
 
     .displayNone {
@@ -234,10 +239,14 @@ h5 {
 
 }
 
+/* end large */
+
+/* mobile/small */
 @media screen and (max-width: 640px) {
     .displayNone {
         display: block;
     }
+
     .card-img-top {
         width: 100%;
     }
@@ -303,7 +312,6 @@ h5 {
         display: inherit;
     }
 
-
     /* Keyframes */
     /* ---------------- */
 
@@ -321,9 +329,11 @@ h5 {
     }
 }
 
-/* Keyframes */
-/* ---------------- */
+/* mobile/small end */
+/* media end */
 
+/* Keyframes other */
+/* ---------------- */
 @keyframes FadeIn {
     0% {
         opacity: 0;
@@ -357,3 +367,5 @@ h5 {
         transform: none;
     }
 }
+
+/* keyframes other end */
