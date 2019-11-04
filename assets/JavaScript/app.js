@@ -83,6 +83,13 @@ $(document).ready(function () {
             title: "EatDaBurger",
             link: "https://eatdaburger-bigshmow.herokuapp.com",
             git: "https://github.com/Bigshmow/burger "
+        },
+        {
+            name: "Click Game",
+            image: "assets/images/BetterClickGame.JPG",
+            title: "Click Match Game",
+            link: "https://bigshmow.github.io/Clicky-state-game",
+            git: "https://github.com/Bigshmow/Clicky-state-game "
         }
 
     ]

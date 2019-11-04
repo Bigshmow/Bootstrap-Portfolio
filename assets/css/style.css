@@ -10,7 +10,7 @@ a:hover {
 }
 
 body {
-    background-color: rgb(189, 235, 230);
+    background-color: white;
     color: #0D1321;
 }
 
@@ -30,12 +30,30 @@ h5 {
     overflow: auto;
 }
 
+.aboutCard {
+    background-color: #5CBBFF;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
 .bigname {
     font-Size: 30px;
     color: #6D454C;
     background-color: #FFEDDF;
     padding: 25px;
 }
+
+.card {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+/* 
+.card-header {
+    background-color: white;
+    border: none;
+} */
 
 .cardImg {
     width: auto;
@@ -45,6 +63,13 @@ h5 {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(75%);
+}
+
+.conCard {
+    background-color: #5CBBFF;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
 }
 
 .contact {
@@ -69,7 +94,7 @@ h5 {
 }
 
 .fa-linkedin:hover {
-    background: red;
+    background: blue;
     color: white;
 }
 
@@ -79,8 +104,7 @@ h5 {
 }
 
 .fa-github:hover {
-    background: red;
-    color: black;
+    color: blue;
 }
 
 .fa-envelope {
@@ -93,15 +117,16 @@ h5 {
 
 .infoBox {
     text-align: center;
-    padding-top: 400px;
+    height: 500px;
     padding-bottom: 25px;
     margin-top: 60px;
-    border: 5px white solid;
+    border: 1px black solid;
 }
 
 .nameHead {
-    color: #0D1321;
-    text-align: left;
+    color: #1D74B3;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .portfolio {
@@ -111,20 +136,36 @@ h5 {
     overflow: auto;
 }
 
+.portCard {
+    background-color: #FFB342;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.resCard {
+    background-color: #FFB342;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
 .resume {
     height: 100%;
     max-height: 550px;
-    border-top: 10px solid #dc2e4b;
+    border-top: 10px solid #5CBBFF;
     overflow: auto;
 }
 
 .seekingPos {
-    color: #6D454C;
+    color: #1D74B3;
     margin-top: 5px;
+    text-align: center;
 }
 
 .socialMedia {
-    text-align: right;
+    display: inline-block;
+    text-align: center;
 }
 
 .submit {
@@ -142,7 +183,7 @@ h5 {
 /* ------------------ */
 #aboutBox {
     max-height: 550px;
-    background-color: #C5d86d;
+    background-color: white;
     transition: border-radius 2s;
 }
 
@@ -153,7 +194,7 @@ h5 {
 
 #contactBox {
     max-height: 550px;
-    background-color: #ffeddf;
+    background-color: white;
     transition: border-radius 2s;
 }
 
@@ -164,7 +205,7 @@ h5 {
 
 #contactBox2 {
     max-height: 550px;
-    background-color: #ffeddf;
+    background-color: white;
     transition: border-radius 2s;
     display: none;
 }
@@ -176,7 +217,7 @@ h5 {
 
 #portfolioBox {
     max-height: 550px;
-    background-color: #afe0ce;
+    background-color: white;
     transition: border-radius 2s;
 }
 
@@ -187,7 +228,7 @@ h5 {
 
 #resumeBox {
     max-height: 550px;
-    background-color: #dc2e4b;
+    background-color: white;
     transition: border-radius 2s;
 }
 
@@ -198,7 +239,7 @@ h5 {
 
 #resumeBox2 {
     max-height: 550px;
-    background-color: #dc2e4b;
+    background-color: white;
     transition: border-radius 2s;
     display: none;
 }
