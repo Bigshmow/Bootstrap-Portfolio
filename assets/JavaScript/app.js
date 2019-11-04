@@ -86,7 +86,7 @@ $(document).ready(function () {
         },
         {
             name: "Click Game",
-            image: "assets/images/BetterClickGame.JPG",
+            image: "assets/images/BetterClickGame.jpg",
             title: "Click Match Game",
             link: "https://bigshmow.github.io/Clicky-state-game",
             git: "https://github.com/Bigshmow/Clicky-state-game "
